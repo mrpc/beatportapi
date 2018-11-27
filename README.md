@@ -2,13 +2,14 @@
 
 A simple PHP class to query the Beatport API via Oauth, server side.
 
-The use case is for a server to server context - for example I used it to build a simple Beatport RSS feed for my label. The library handles the three legged Oauth1a flow, submitting what would be the client side login/confirmation process via the server. Beatport does advertise a simpler Direct Access Token, but you need additional permissions, and this library works without that.
+The use case is for a server to server context.
 
 The class essentially just returns an array which you can then manipulate as you please.
 
 This is originally based on the following people's work:
 
-* [Beatport API Json Feed](https://github.com/fedegiust/Beatport-API-JSON-feed) by Federico Giust (I forked this repo as a starting point)
+* [Beatport API PHP Class](https://github.com/moussaclarke/beatportapi) by [Moussa Clarke](https://github.com/moussaclarke) (I forked this repo as a starting point)
+* [Beatport API Json Feed](https://github.com/fedegiust/Beatport-API-JSON-feed) by Federico Giust
 * [Beatport OAuth Connect w/ PECL](https://groups.google.com/forum/#!topic/beatport-api/sEpZUJkaSdo) by Tim Brandwijk (Federico Giust's script was based on this one)
 * [Beatport OAuth Connect w/ PEAR](https://groups.google.com/forum/#!topic/beatport-api/sEpZUJkaSdo) by Christian Kolloch (Also based on Tim Brandwijk's script)
 
@@ -69,10 +70,6 @@ Totally and utterly alpha, and likely to break at any point. Not guaranteed to w
 * Add some proper error catching / messaging
 * Test and document other query types.
 
-## Maintained
-
-By [Moussa Clarke](https://github.com/moussaclarke/)
-
 ## Contribute
 
 Would be cool to improve this, so feel free to submit bug reports, suggestions and pull requests. Can't guarantee I've got enough time to do very much though! Alternatively just fork it and make your own thing.
@@ -80,8 +77,3 @@ Would be cool to improve this, so feel free to submit bug reports, suggestions a
 ## License
 [WFTPL](http://www.wtfpl.net/), insofar as those other guys are cool with that.
 
-## Music
-Outside of geekdom, I'm a DJ, producer and label manager, go check me out:
-
-* [Moussa Clarke](http://www.moussaclarke.co.uk)
-* [Glamour Punk](http://www.glamourpunk.co.uk)
