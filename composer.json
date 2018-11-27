@@ -1,15 +1,22 @@
 {
-    "name": "moussaclarke/beatportapi",
+    "name": "mrpc/beatportapi",
     "description": "Beatport Api Class",
     "keywords": ["beatport"],
-    "homepage": "https://github.com/moussaclarke/beatportapi",
+    "homepage": "https://github.com/mrpc/beatportapi",
     "license": "WTFPL",
     "type": "library",
-    "authors": [{
+    "authors": [
+        {
         "name": "Moussa Clarke",
         "email": "moussaclarke@gmail.com",
         "homepage": "http://www.moussaclarke.co.uk"
-    }],
+        },
+        {
+        "name": "Yannis - Pastis Glaros",
+        "email": "mrpc@pramnoshosting.gr",
+        "homepage": "https://mrpc.pramnos.net"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "MoussaClarke\\": "src"
