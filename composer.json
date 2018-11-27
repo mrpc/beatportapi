@@ -5,7 +5,6 @@
     "homepage": "https://github.com/mrpc/beatportapi",
     "license": "WTFPL",
     "type": "library",
-    "version": "0.1",
     "authors": [
         {
         "name": "Moussa Clarke",
