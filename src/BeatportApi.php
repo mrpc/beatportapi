@@ -8,11 +8,11 @@
  */
 
 // Usage:
-// $api = new Moussaclarke\BeatportApi (array $parameters); // initialise
+// $api = new mrpc\BeatportApi (array $parameters); // initialise
 // $response = $api->queryApi (array $query); // run the query
 // echo $response; // do something with response
 
-namespace MoussaClarke;
+namespace mrpc;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
@@ -159,7 +159,7 @@ class BeatportApi
 
     private function getStack ($oauth)
     {
-        // send back a handlerstack instance 
+        // send back a handlerstack instance
         $stack = HandlerStack::create();
         $stack = $this->getLogger($stack); // get logger if exists
         $stack->push($oauth);
@@ -176,7 +176,7 @@ class BeatportApi
             );
             $stack->push($loggingmiddleware);
         }
-        
+
         return $stack;
     }
 

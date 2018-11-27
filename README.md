@@ -27,13 +27,13 @@ This is originally based on the following people's work:
 ## Install
 
 ```
-composer require moussaclarke/beatportapi
+composer require mrpc/beatportapi
 ```
 
 ## Usage
 
 ```
-use MoussaClarke\BeatportApi;
+use mrpc\BeatportApi;
 
 // auth parameters
 $parameters = [
